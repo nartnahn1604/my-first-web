@@ -28,3 +28,14 @@ function linkAction(){
     navMenu.classList.remove('show-menu')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
+
+/* Scroll menu */
+function scrollMenu(){
+    const scrollHeader = document.getElementById('header')
+
+    if(this.scrollY >= 100)
+        scrollHeader.classList.add('scroll-header')
+    else
+        scrollHeader.classList.remove('scroll-header')
+}
+window.addEventListener('scroll', scrollMenu)
