@@ -39,3 +39,16 @@ function scrollMenu(){
         scrollHeader.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollMenu)
+
+/* Swipper Discover */ 
+var swiper = new Swiper(".discover__container", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    loop: true,
+    spaceBewteen: 32,
+    coverflowEffect: {
+      rotate: 50,
+    },
+  });

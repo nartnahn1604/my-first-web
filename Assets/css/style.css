@@ -388,6 +388,55 @@ input{
 .about__img-two:hover{
     transform: var(--img-scale);
 }
+
+/* Discover */
+.discover{
+
+}
+
+.discover__container{
+
+}
+
+.discover__card{
+    position: relative;
+    width: 200px;
+    overflow: var(--img-hidden);
+}
+
+.discover__img{
+    transition: var(--img-trasition);
+}
+
+.discover__img:hover{
+    transform: var(--img-scale);
+}
+
+.discover__data{
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1rem;
+}
+
+.discover__title,
+.discover__description{
+    color: var(--white-color);
+}
+
+.discover__title{
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.discover__description{
+    display: block;
+    font-size: var(--smaller-font-size);
+}
+
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right{
+    background-image: none;
+}
 /* Button */
 .button{
     display: inline-block;

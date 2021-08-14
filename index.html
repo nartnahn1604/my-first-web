@@ -8,7 +8,7 @@
     <!-- Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
     <!-- Swipper -->
-
+    <link rel="stylesheet" href="./Assets/css/swiper-bundle.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="./Assets/css/style.css">
     <title>Document</title>
@@ -92,7 +92,7 @@
         <!-- End: Home -->
 
         <!-- Start: About -->
-        <section class="about section   " id="about">
+        <section class="about section" id="about">
             <div class="about__container container grid">
                 <div class="about__data">
                     <h2 class="section__title about__title">
@@ -120,7 +120,47 @@
 
         <!-- Start: Discover -->
         <section class="discover section" id="discover">
-
+            <h2 class="section__title">
+                Discover The Most
+                <br>
+                Attractive Places
+            </h2>
+            <div class="discover__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- IMAGE1 -->
+                    <div class="discover__card swiper-slide">
+                        <img src="./Assets/img/discover1.jpg" alt="img" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Bali</h2>
+                            <span class="discover__description">24 tours available</span>
+                        </div>
+                    </div>
+                    <!-- IMAGE2 -->
+                    <div class="discover__card swiper-slide">
+                        <img src="./Assets/img/discover2.jpg" alt="img" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Hawaii</h2>
+                            <span class="discover__description">15 tours available</span>
+                        </div>
+                    </div>
+                    <!-- IMAGE3 -->
+                    <div class="discover__card swiper-slide">
+                        <img src="./Assets/img/discover4.jpg" alt="img" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Whitehaven</h2>
+                            <span class="discover__description">32 tours available</span>
+                        </div>
+                    </div>
+                    <!-- IMAGE4 -->
+                    <div class="discover__card swiper-slide">
+                        <img src="./Assets/img/discover3.jpg" alt="img" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Hvar</h2>
+                            <span class="discover__description">18 tours available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- End: Discover -->
 
@@ -134,6 +174,10 @@
         </section>
     </div>
     <!-- End: Main -->
+
+    <!-- Swipper Js -->
+    <script src="./Assets/js/swiper-bundle.min.js"></script>
+
     <!-- Main Script -->
     <script src="./Assets/js/main.js"></script>
 </body>
